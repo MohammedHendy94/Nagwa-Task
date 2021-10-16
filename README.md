@@ -1,5 +1,5 @@
 # Nagwa-Task
-Using Page Object Model i have developed my solution.
+Using selenium C# with Page Object Model i have developed my solution.
 Solution contains main three folders Pages, Tests, Factory Wrapper.
 Page folder holds all web pages classes.
 Each page class holds the web elements and the methods which handle the test cases and operations can be made on the web elements.
