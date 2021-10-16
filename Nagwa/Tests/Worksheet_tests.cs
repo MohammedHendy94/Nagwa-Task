@@ -40,12 +40,12 @@ namespace Nagwa.Tests
         }
 		#endregion
 		[TestMethod]
-		public void GetNumberOfSearchResults()
+		public void GetNumberOfQuestions()
 		{
            
-            worksheet_Homepage = new Pages.Worksheet_Homepage(driver);
-            int numOfSearchResults = worksheet_Homepage.GetNumberOfSearchResults();
-            System.Console.WriteLine("Number of search results are: {0}", numOfSearchResults);
+           worksheet_Homepage = new Pages.Worksheet_Homepage(driver);
+            int numOfSearchResults = worksheet_Homepage.GetNumberOfQuestions();
+            System.Console.WriteLine("Number of Questions are: {0}", numOfSearchResults);
         }
     }
 }

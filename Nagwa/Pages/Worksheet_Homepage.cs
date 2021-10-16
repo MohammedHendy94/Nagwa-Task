@@ -15,7 +15,7 @@ namespace Nagwa.Pages
 		#endregion
 
 		#region Methods to handle test cases
-		public int GetNumberOfSearchResults()
+		public int GetNumberOfQuestions()
 		{
 			NumOfQuestionList = Driver.FindElements(numOfQuestionsListElement);
 			return NumOfQuestionList.Count;
