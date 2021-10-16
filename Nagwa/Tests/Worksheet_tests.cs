@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Nagwa.Tests
 {
+    [TestClass]
     public class Worksheet_tests : BaseTests
     {
         IWebDriver driver;
@@ -16,7 +17,7 @@ namespace Nagwa.Tests
         [TestInitialize]
         public void TestSetup()
         {
-            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa Automation Task\Nagwa");
+            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa - Task\Nagwa");
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.nagwa.com";
             Pages.Languages_page langpag = new Pages.Languages_page(driver);

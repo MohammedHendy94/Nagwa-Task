@@ -22,7 +22,7 @@ namespace Nagwa.Tests
 
         public void TestSetup()
         {
-            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa Automation Task\Nagwa");
+            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa - Task\Nagwa");
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.nagwa.com";
             Pages.Languages_page langpag = new Pages.Languages_page(driver);
@@ -35,7 +35,6 @@ namespace Nagwa.Tests
         {
             driver.Quit();
         }
-
 
         #endregion
 

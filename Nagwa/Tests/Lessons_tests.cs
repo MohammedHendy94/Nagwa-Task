@@ -21,7 +21,7 @@ namespace Nagwa.Tests
         [TestInitialize]
         public void Testsetup()
         {
-            driver = new ChromeDriver (@"C:\Users\Candle_Store\Desktop\Nagwa Automation Task\Nagwa");
+            driver = new ChromeDriver (@"C:\Users\Candle_Store\Desktop\Nagwa - Task\Nagwa");
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.nagwa.com";
             Pages.Languages_page lanpag = new Pages.Languages_page(driver);

@@ -19,7 +19,7 @@ namespace Nagwa.Tests
         // before each test case this method will be executed to open Nagwa URL.
         public void TestSetup()
         {
-            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa Automation Task\Nagwa");
+            driver = new ChromeDriver(@"C:\Users\Candle_Store\Desktop\Nagwa - Task\Nagwa");
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.nagwa.com";
         }
